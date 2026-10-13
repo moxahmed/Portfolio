@@ -16,6 +16,21 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    role: "Frontend Angular Developer",
+    company: "Integrated Solutions For Ports (ISFP)",
+    location: "Alexandria, Egypt",
+    period: "Aug 2026 – Present",
+    description:
+      "Developing and maintaining modern, scalable web applications using Angular and TypeScript. Building responsive user interfaces, implementing robust state management, and integrating RESTful APIs to deliver seamless user experiences.",
+    highlights: [
+      "Angular & TypeScript",
+      "Responsive UI Design",
+      "RESTful API Integration",
+    ],
+    type: "work",
+    icon: Building2,
+  },
+  {
     role: "Intensive Training Program (ITP)",
     company: "ITI, Damanhur Branch",
     location: "Damanhur, Egypt",
@@ -158,9 +173,10 @@ export const ExperienceSection = () => {
                           <Calendar size={12} />
                           {exp.period}
                         </Badge>
-                        {exp.type === "freelance" && (
+                        {(exp.period.includes("Present") ||
+                          exp.type === "freelance") && (
                           <Badge className="bg-primary/20 text-primary border-primary/30 hover:bg-primary/30">
-                            Ongoing
+                            Current
                           </Badge>
                         )}
                       </div>

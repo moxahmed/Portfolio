@@ -16,9 +16,9 @@ const highlights = [
   {
     icon: Building2,
     title: "Current Position",
-    role: "Frontend Developer Intern",
-    organization: "Information Technology Institute (ITI)",
-    details: "4-Month Intensive Code Camps (July 2025 - December 2025)",
+    role: "Frontend Angular Developer",
+    organization: "Integrated Solutions For Ports (ISFP)",
+    details: "August 2026 – Present",
   },
   {
     icon: MapPin,
@@ -49,12 +49,12 @@ export const AboutSection = () => {
               <p>
                 Graduate of Computer Science, completed the Information
                 Technology Institute (ITI) program, holder of a Route diploma,
-                with one year of hands-on freelance experience in frontend
-                projects. I build modern web applications using React and
-                TypeScript, applying strong knowledge of HTML, CSS, JavaScript
-                (JS), and SASS, along with practical experience using Bootstrap
-                and Tailwind CSS to create responsive, accessible user
-                interfaces focused on performance and user experience.
+                with hands-on experience in frontend projects. I build modern
+                web applications using Angular, React, and TypeScript, applying
+                strong knowledge of HTML, CSS, JavaScript (JS), and SASS, along
+                with practical experience using Bootstrap and Tailwind CSS to
+                create responsive, accessible user interfaces focused on
+                performance and user experience.
               </p>
               <p>
                 I work with responsive web design principles and API integration
